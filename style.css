@@ -1,0 +1,31 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 300px;
+	font-size: 14px;
+}
+
+label {
+	display: block;
+	margin: 10px 0;
+}
+
+input[type="text"] {
+	padding: 12px;
+	border: none;
+	box-shadow: 0 2px 0 #eee;
+	width: 100%;
+	animation: all 0.5s ease;
+}
+
+input[type="text"]:focus {
+	outline: none;
+	animation: all 0.5s ease;
+	box-shadow: 0 2px 0 #77CAFF;
+}
+
+button {
+	padding: 5px;
+}
